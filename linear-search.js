@@ -1,5 +1,6 @@
-﻿const arr = [3,1,2,6,7,9,7,11,34,567,77,555,33,223]
+﻿const arr = [3, 1, 2, 6, 7, 9, 7, 11, 34, 567, 77, 555, 33, 223]
 let count = 0;
+
 function linearSearch(value) {
     for (let i = 0; i <= arr.length; i++) {
         count += 1
